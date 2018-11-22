@@ -1,0 +1,20 @@
+{
+  "name": "pkg-meta",
+  "version": "1.0.0",
+  "author": "James Keane <james.keane@gmail.com>",
+  "homepage": "https://github.com/jameskeane/pkg-meta#readme",
+  "bugs": "https://github.com/jameskeane/pkg-meta/issues",
+  "repository": "github:jameskeane/pkg-meta",
+  "description": "`Debug.findScript` for node v9+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-gyp rebuild"
+  },
+  "author": "",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.3.0"
+  }
+}
